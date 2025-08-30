@@ -14,5 +14,7 @@ public class O3 {
         for (int i = 2; i <= n; i++) fakultet *= i;
 
         System.out.println("Fakultet av " + n + " er: " + fakultet);
+
+        scanner.close();
     }
 }
