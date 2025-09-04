@@ -19,7 +19,7 @@ public class O2 {
         poengsum = scanner.nextInt();
         if (poengsum < 0 || poengsum > 100) System.out.println("Ugyldig poengsum: " + poengsum);
         else giKarakter(poengsum);
-       
+
         /* Oppgåve b */
         for (int i = 0; i < 10; i++) {
             System.out.print("Poengsum: ");
